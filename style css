@@ -1,0 +1,133 @@
+/* 🌿 CashBlueprint Website Style Sheet */
+/* Created by Tlotlang Lepeli */
+
+/* 🌍 Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 🏠 Body Styling */
+body {
+  background: linear-gradient(135deg, #fefefe, #f4f4f4);
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* 🧱 Header */
+header {
+  width: 100%;
+  padding: 2rem 0;
+  background: #fff;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #0f5132;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+header p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* 💰 Hero Section */
+.hero {
+  padding: 5rem 1rem;
+  background: linear-gradient(120deg, #2ecc71, #27ae60);
+  color: #fff;
+  width: 100%;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.hero .btn {
+  margin-top: 2rem;
+  background: #fff;
+  color: #27ae60;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hero .btn:hover {
+  background: #0f5132;
+  color: #fff;
+}
+
+/* 📊 Features Section */
+.features {
+  padding: 4rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  background: #fafafa;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  color: #27ae60;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ✉️ Footer */
+footer {
+  background: #0f5132;
+  color: #fff;
+  padding: 2rem 0;
+  margin-top: auto;
+  width: 100%;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #2ecc71;
+  text-decoration: none;
+  font-weight: 600;
+}
